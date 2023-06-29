@@ -6,15 +6,15 @@
 }
 
 .test {
-	background: transparent
-    url(../img/metal.jpeg) no-repeat center center / cover  ;	
-	
+	background: rgba(200,100,0,.5)
+    url(../img/metal.jpeg) no-repeat center center / cover  ;
+	background-blend-mode: multiply;
 	backdrop-filter: blur(3px);
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  
+
 }
 .header {
   /* border-bottom: 2px solid #fff; */
@@ -79,7 +79,7 @@ span img {
 	line-height: 44px;
 	color: #fff;
 	font-weight: 700;
-	
+
 	padding-top: 85px;
 }
 
