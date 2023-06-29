@@ -43,6 +43,11 @@ span img {
 .left-wing, .right-wing {
 	width: 635px;
 }
+.right-wing {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;	
+}
 .left-wing {
 	display: flex;
 	align-items: center;
