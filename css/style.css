@@ -37,8 +37,10 @@ span img {
 }
 
 .logo {
-  margin-right: 62px;
+  margin-right: 122px;
   padding-left: 16px;
+  width: 180px;
+  height: 160px;
 }
 
 .header-descr {
