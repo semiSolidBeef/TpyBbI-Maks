@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
     <title>Трубы</title>
   </head>
@@ -18,7 +18,7 @@
 		<div class="container">
       <header class="header flex">
         <div class="left-wing flex">
-          <img class="logo" src="img/bbbb.png" alt="logo" />
+          <img class="logo" src="/img/bbbb.png" alt="logo" />
           <p class="header-descr">
             Бесплатная доставка по <br />всему Казахстану
           </p>
@@ -26,7 +26,7 @@
         <div class="right-wing">
           <div class="phone-reset">
             <span>
-              <img class="zvonok" src="img/phone-call.svg" alt="" />
+              <img class="zvonok" src="/img/phone-call.svg" alt="" />
             </span>
             <strong
               ><a class="telephone" href="tel:77009999999"
@@ -36,7 +36,7 @@
           </div>
           <div class="post-reset">
             <span>
-              <img class="post" src="img/mail.svg" alt="" />
+              <img class="post" src="/img/mail.svg" alt="" />
             </span>
             <a class="email" href="mailto:Metalon2017@bk.ru">Metalon2017@bk.ru</a
             >
@@ -59,12 +59,14 @@
         </div>
         <div class="right-sc-wing">
           <div class="first-sc-form">
-            <form action="">
+            <form action="/send-email" method="post">
               <h3>Напишите нам на почту</h3>
-              <input class="form-input-name" type="text" placeholder="Введите имя">
-              <input class="form-input-tel" type="text" placeholder="Введите номер телефона">
-              <input class="form-input-msg" type="text" placeholder="Введите сообщение">
-            </form>
+              <input class="form-input-name" name="name" type="text" placeholder="Введите имя">
+              <input class="form-input-email" name="email" type="email" placeholder="Введите ваш email">
+              <input class="form-input-tel" name="phone" type="text" placeholder="Введите номер телефона">
+              <input class="form-input-msg" name="message" type="text" placeholder="Введите сообщение">
+              <button type="submit">Отправить</button>
+          </form>
           </div>
 
         </div>
@@ -82,8 +84,14 @@
 			<h2	class="second-sct-head">В НАЛИЧИИ ШИРОКИЙ СОРТАМЕНТ МЕТАЛЛОПРОКАТА</h2>
 			<p class="second-sct-text">Наша продукция с доставкой до объекта и отсрочкой платежа</p>
 			<div id="parent"></div>
+			<div class="third-sct">
+				<h2 class="third-sct-header">
+					ПОЧЕМУ ИМЕННО МЫ
+				</h2>
+			</div>
 		</section>
 	</div>
-		<script src="script.js"></script>
+		<script src="/scripts/script.js"></script>
+    <script src="/scripts/mail-handler.js"></script>
   </body>
 </html>
