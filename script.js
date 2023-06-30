@@ -3,56 +3,56 @@ const data = [
     image: "./img/nerzhlist.jpg",
     title: "Листы стальные",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
 	{
     image: "./img/shveller-1.jpg",
     title: "Швеллера",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
   {
     image: "./img/126.0x460@2x.jpg",
     title: "Трубы профильные",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
   {
     image: "./img/armatura_aIII (400)_v.jpg",
     title: "Арматура",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
 	{
     image: "./img/nerzhaveyushie-listy_DXPp7dq.jpg",
     title: "Нерж.листы",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
 	{
     image: "./img/truba1.jpeg",
     title: "Трубы кругл. стальные",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
   {
     image: "./img/dvutavr.jpg",
     title: "Двутавр",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
   {
     image: "./img/nerzhtrub.jpg",
-    title: "Long Lasting",
+    title: "Трубы нерж.",
     description:
-      "Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul",
+      "Lorem ipsum dolor sit consectetur",
     link: "Расчитать заказ",
   },
 ];
