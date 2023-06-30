@@ -1,3 +1,5 @@
+$white : #fff;
+$fl : flex;
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +8,9 @@
 }
 
 .bg-reset {
-  background: rgb(127, 124, 124) url(../img/metal.jpeg) no-repeat center center/cover;
+  background: rgb(127, 124, 124) url(../img/metal.jpeg) no-repeat center center / cover;
   background-blend-mode: multiply;
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 
 .container {
@@ -28,7 +29,7 @@
 }
 
 .flex {
-  display: flex;
+  display: $fl;
 }
 
 span img {
@@ -44,7 +45,7 @@ span img {
 }
 
 .header-descr {
-  color: #fff;
+  color: $white;
   margin-right: 35px;
   font-weight: 100;
   width: 190px;
@@ -53,7 +54,7 @@ span img {
 .telephone,
 .email {
   text-decoration: none;
-  color: #fff;
+  color: $white;
   margin-right: 20px;
 }
 
@@ -64,7 +65,7 @@ span img {
 
 .phone-reset,
 .post-reset {
-  display: flex;
+  display: $fl;
   align-items: center;
 }
 
@@ -74,7 +75,7 @@ span img {
 }
 
 .right-wing {
-  display: flex;
+  display: $fl;
   align-items: center;
   justify-content: space-evenly;
   text-align: left;
@@ -82,7 +83,7 @@ span img {
 
 .left-wing {
   padding-left: 35px;
-  display: flex;
+  display: $fl;
   align-items: center;
 }
 
@@ -91,13 +92,13 @@ span img {
   height: 300px;
   font-size: 28px;
   line-height: 44px;
-  color: #fff;
+  color: $white;
   font-weight: 700;
   padding-top: 85px;
 }
 
 .first-sc-text {
-  color: #fff;
+  color: $white;
   font-size: 25px;
   line-height: 45px;
   font-weight: 100;
@@ -108,22 +109,25 @@ span img {
   margin: 40px auto 10px auto;
   width: 38px;
   height: 100px;
-}
-.arrow-7 span {
-  display: block;
-  width: 30px;
-  height: 30px;
-  border-bottom: 5px solid #fff;
-  border-right: 5px solid #fff;
-  transform: rotate(45deg);
-  margin: -16px 0;
-  animation: arrow-7 2s infinite;
-}
-.arrow-7 span:nth-child(2) {
-  animation-delay: -0.2s;
-}
-.arrow-7 span:nth-child(3) {
-  animation-delay: -0.4s;
+
+  span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid $white;
+    border-right: 5px solid $white;
+    transform: rotate(45deg);
+    margin: -16px 0;
+    animation: arrow-7 2s infinite;
+  }
+
+  span:nth-child(2) {
+    animation-delay: -0.2s;
+  }
+
+  span:nth-child(3) {
+    animation-delay: -0.4s;
+  }
 }
 
 @keyframes arrow-7 {
@@ -138,4 +142,4 @@ span img {
     opacity: 0;
     transform: translate(0, 20px) rotate(45deg);
   }
-}/*# sourceMappingURL=style.css.map */
+}
