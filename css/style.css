@@ -87,24 +87,35 @@ span img {
 }
 
 .first-sc-head {
-  width: 590px;
+  display: flex;
+  align-items: center;
+  width: 1200px;
   height: 300px;
   font-size: 28px;
   line-height: 44px;
   color: #fff;
   font-weight: 700;
   padding-top: 85px;
+  padding-left: 30px;
 }
+
+.first-sc-content {
+  display: flex;
+  align-items: center;
+}
+
 
 .first-sc-text {
   color: #fff;
   font-size: 25px;
   line-height: 45px;
   font-weight: 100;
-  text-align: left;
+  text-align: center;
+  margin-right: 17px;
 }
 
 .arrow-7 {
+	
   margin: 40px auto 10px auto;
   width: 38px;
   height: 100px;
@@ -139,3 +150,13 @@ span img {
     transform: translate(0, 20px) rotate(45deg);
   }
 }/*# sourceMappingURL=style.css.map */
+.second-sct-head, .second-sct-text {
+	
+	text-align: center;
+	margin: 0 auto;
+}
+
+.second-sct-text {
+	width: 350px;
+	font-weight: 200;
+}
