@@ -206,3 +206,18 @@ span img {
 .block {
   margin-bottom: 20px;
 }
+.picture {
+	width: 100px;
+	height: 100px;
+	
+}
+.card {
+	margin: 0 auto;
+	text-align: center;
+}
+.third-sct-header {
+	margin-bottom: 50px;
+}
+#cardes {
+	display: flex;
+}
