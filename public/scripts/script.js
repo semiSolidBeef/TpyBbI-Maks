@@ -50,7 +50,7 @@ fetchData();
 const arr = [
 	{
 		"picture": '../img/consul.png',
-		"paragraph": 'Бесплатно проконсультируем',
+		"paragraph": 'Бесплатная консультация',
 		"scndparagraph": 'Lorem ipsum dolor sit consectetur'
 	},
 	{
@@ -59,7 +59,7 @@ const arr = [
 		"scndparagraph": 'Lorem ipsum dolor sit consectetur'
 	},
 	{
-		"picture": '../img/gruzovik.png',
+		"picture": '../img/gruz.png',
 		"paragraph": 'Бесплатная доставка',
 		"scndparagraph": 'Lorem ipsum dolor sit consectetur'
 	}

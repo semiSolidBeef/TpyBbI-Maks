@@ -221,3 +221,8 @@ span img {
 #cardes {
 	display: flex;
 }
+.paragraph {
+	font-size: 25px;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
