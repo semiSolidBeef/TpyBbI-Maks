@@ -1,0 +1,25 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "landing for sails ",
+  "main": "script.js",
+  "scripts": {
+    "start": "start",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semiSolidBeef/TpyBbI-Maks.git"
+  },
+  "author": "MaximChoy, semiSolidBeef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semiSolidBeef/TpyBbI-Maks/issues"
+  },
+  "homepage": "https://github.com/semiSolidBeef/TpyBbI-Maks#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3"
+  }
+}
