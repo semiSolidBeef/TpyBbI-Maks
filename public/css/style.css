@@ -17,7 +17,7 @@
   background: #333;
 }
 .first-sc-form {
- color: #fff;
+  color: #fff;
 }
 .bg-rebalance {
   background: #000;
@@ -241,7 +241,7 @@ span img {
   margin-bottom: 10px;
 }
 .bg-restart {
-	color: #fff;
+  color: #fff;
   height: 500px;
 }
 .fifth-sct-header,
@@ -257,9 +257,6 @@ span img {
   padding-top: 100px;
   font-size: 30px;
   opacity: 0.8;
-}
-.fifth-sct {
-  /* height: 540px; */
 }
 
 .fifth-sct-number {
@@ -289,14 +286,14 @@ span img {
   line-height: 1.55;
 }
 .bg-rebalance {
-	background: rgb(127, 124, 124) url(../img/bg-metal.jpg) no-repeat center
+  background: rgb(127, 124, 124) url(../img/bg-metal.jpg) no-repeat center
     center/cover;
-	
-	
+
   background-blend-mode: multiply;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 }
+
 @media screen and (width < 860px) {
   .phone-reset {
     display: none;
@@ -383,11 +380,55 @@ span img {
   }
   .bg-restart {
     height: 1030px;
-		
   }
-	
+
 }
 .interaction {
-	color: #fff;
-	text-align: center;
+  color: #fff;
+  text-align: center;
+}
+
+form h3 {
+  text-align: center;
+  font-size: 64px;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+.form-flex {
+  display: flex;
+  flex-direction: column;
+}
+.form-input-name, .form-input-email, .form-input-tel ,.form-input-msg {
+  width: 450px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+.form-input-name, .form-input-email, .form-input-tel ,.form-input-msg:not(:last-child) {
+  margin-bottom: 15px;
+}
+.form-btn {
+  align-self: self-end;
+  padding: 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 250px;
+  border-radius: 15px;
+}
+.first-sc-form {
+  border: 1px none #fff;
+  border-radius: 9px;
+  width: 600px;
+  margin: 0 auto;
+  background: #333;
+  padding-top: 14px;
+}
+
+.bg-rebalance{
+  height: 23423px;
+
+
+}
+.test {
+  height: 50px;
 }
