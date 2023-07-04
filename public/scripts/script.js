@@ -34,8 +34,8 @@ function createBlocks(fetchedData) {
 
     block.appendChild(image);
     block.appendChild(title);
-    block.appendChild(description);
-    block.appendChild(link);
+    // block.appendChild(description);
+    // block.appendChild(link);
 
     return block;
   });
@@ -71,30 +71,30 @@ const cards = arr.map((item) => {
   const card = document.createElement("div");
   card.className = "card";
 
-	
+
   const picture = document.createElement("img");
   picture.className = "picture";
   picture.textContent = item.picture;
   picture.src = item.picture;
-	
+
   const paragraph = document.createElement("p");
   paragraph.className = "paragraph";
   paragraph.textContent = item.paragraph;
-	
+
   const scndparagraph = document.createElement("p");
   scndparagraph.className = "scndparagraph";
   scndparagraph.textContent = item.scndparagraph;
-	
-	
+
+
 
   card.appendChild(picture);
   card.appendChild(paragraph);
-  card.appendChild(scndparagraph);
-	
+  // card.appendChild(scndparagraph);
+
 
 
   return card;
-	
+
 });
 cards.forEach((card) => {
   cardesElement.appendChild(card);

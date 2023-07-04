@@ -1,0 +1,115 @@
+@media screen and (width < 860px) {
+  .phone-reset {
+    display: none;
+  }
+  .logo {
+    margin: 0;
+  }
+  .header-descr {
+    padding-left: 60px;
+  }
+  .first-sc-head {
+    font-size: calc(2rem + 2vw - 1vh);
+    text-align: inherit;
+    padding-left: 20px;
+
+    height: 400px;
+  }
+}
+@media screen and (width < 640px) {
+  .header-descr {
+    display: none;
+  }
+  .logo {
+    margin-right: 55px;
+  }
+  .first-sc-content {
+    font-size: calc(2rem + 2vw - 1vh);
+    flex-direction: column;
+    text-align: left;
+  }
+  .first-sc-head {
+    height: 300px;
+    text-align: left;
+    padding-top: 50px;
+  }
+
+  .block {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #cardes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .third-sct-header {
+    text-align: center;
+  }
+  .fifth-sct-header {
+    padding-top: 5px;
+
+    font-size: calc(2rem + 2vw - 1vh);
+    max-height: 180px;
+  }
+  .fifth-sct-text {
+    font-size: calc(2rem + 2vw - 1vh);
+    padding-top: 120px;
+    max-width: 400px;
+    /* max-height: 180px; */
+		height: max-content;
+  }
+  .left-wing {
+    width: 180px;
+    padding-left: 0;
+  }
+  .fifth-sct-flex .fifth-sct-parag {
+    font-size: calc(2rem + 2vw - 1vh);
+  }
+  .fifth-sct-flex {
+    width: 200px;
+  }
+  .fifth-sct-number {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    text-align: center;
+  }
+  .fifth-sct-number {
+    text-align: center;
+		
+  }
+  .fifth-sct-numbers {
+    margin-bottom: 11px;
+  }
+  .fifth-sct {
+    height: 100px;
+    background: #333;
+    background-size: 400px 1000px;
+  }
+  .bg-restart {
+    height: 1600px;
+  }
+  .first-sc-form {
+    width: inherit;
+		border-radius: 0;
+  }
+  .flex-elem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 393px;
+  }
+  .form-input-name,
+  .form-input-email,
+  .form-input-tel,
+  .form-input-msg {
+    width: 300px;
+    /* margin: 0 auto; */
+    padding: 15px 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+  }
+  
+}
