@@ -344,7 +344,16 @@ form h3 {
   margin: 0 auto;
   padding: 15px 30px;
   border-radius: 15px;
+  border: none;
 
+}
+.form-input-name,
+.form-input-email,
+.form-input-tel,
+.form-input-msg:active:hover {
+
+  border: none;
+  outline: none;
 }
 .form-input-name,
 .form-input-email,
@@ -374,15 +383,20 @@ form h3 {
   background: #f8b830;
   color: #fff;
   transition: width 0.7s, background 0.1s;
+  border: none;
+  outline: none;
 
 }
 .form-btn:hover {
   width: 300px;
+  border: none;
+  outline: none;
 }
 .form-btn:active {
   vertical-align: middle;
   background: #696969;
-
+  border: none;
+  outline: none;
 }
 
 
