@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
+
 }
 
 .bg-reset {
@@ -409,10 +411,68 @@ form h3 {
   padding-top: 14px;
 }
 .footer {
-  background: transparent url(../img/footer-image.png) no-repeat center / cover
+  background: transparent url(../img/footer-image.png) no-repeat center / cover;
+  height: 100%;
 }
 .footer-gen-left-info {
+  padding-top: 40px;
+  width: 424px;
   height: 385px;
 }
+.footer-gen-left-info a {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
 
+}
 
+.number-tel {
+  display: flex;
+
+  padding-top: 17px;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.number-tel span {
+  width: 30px;
+}
+.color-white {
+  color: #fff;
+}
+.telep {
+  line-height: 12px;
+}
+.telep a {
+  padding-left: 30px;
+  color: #fff;
+}
+.telep span {
+  display: block;
+}
+.mail-span {
+  padding-top: 50px;
+}
+.telep, .mail-span {
+  display: flex;
+  align-items: center;
+}
+/* .telep-links {
+  padding-left: 80px;
+
+} */
+.number-tel span img, .mail-span span img {
+  width: 50px;
+  height: 50px;
+}
+.test {
+  padding-left: 46px;
+}
+.mail-span a {
+  padding-left: 25px;
+}
