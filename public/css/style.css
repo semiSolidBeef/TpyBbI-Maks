@@ -408,7 +408,11 @@ form h3 {
   background: #333;
   padding-top: 14px;
 }
-
-
+.footer {
+  background: transparent url(../img/footer-image.png) no-repeat center / cover
+}
+.footer-gen-left-info {
+  height: 385px;
+}
 
 
