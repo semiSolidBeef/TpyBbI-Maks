@@ -4,7 +4,7 @@
   "description": "landing for sails ",
   "main": "script.js",
   "scripts": {
-    "start": "start",
+    "start": "node server.js",
     "test": "test"
   },
   "repository": {
