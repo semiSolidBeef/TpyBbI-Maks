@@ -6,6 +6,8 @@
   text-decoration: none;
 }
 
+
+
 .bg-reset {
   background: rgb(127, 124, 124) url(../img/metal.jpeg) no-repeat center
     center/cover;
@@ -27,7 +29,6 @@
   text-decoration: none;
 }
 .container {
-  width: 100vw !important;
   margin: 0 auto;
 }
 
@@ -399,21 +400,19 @@ form h3 {
   padding-top: 14px;
 }
 .footer {
+  width: 100%;
   background: transparent url(../img/footer-image.png) no-repeat center / cover;
   height: 100%;
   display: flex;
   flex-direction: row;
 }
 .container2 {
-  width: 100vw;
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
 .footer-gen-right {
   display: flex;
-  width: 100vw !important; 
   flex-wrap: wrap;
 }
 .footer-gen-left-info {
@@ -421,7 +420,6 @@ form h3 {
   height: 385px;
 }
 .footer-gen-left {
-  width: 100vw !important;
   margin-right: 100px;
 }
 .footer-gen-left-info a {
