@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
+
 }
 
 .bg-reset {
@@ -17,7 +19,7 @@
   background: #333;
 }
 .first-sc-form {
-  color: #fff;
+  color: #fff
 }
 .bg-rebalance {
   background: #000;
@@ -166,7 +168,7 @@ span img {
   margin: 0 auto;
 }
 .second-sct-head {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .second-sct-text {
@@ -217,9 +219,6 @@ span img {
 .block {
   margin-bottom: 20px;
   padding: 15px;
-  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   border: 1px solid #c0c0c0;
   border-radius: 7px;
 }
@@ -295,7 +294,7 @@ span img {
   background: rgb(127, 124, 124) url(../img/bg-metal.jpg) no-repeat center
     center/cover;
 
-  /* height: 90px;
+	/* height: 90px;
   background-blend-mode: multiply;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
@@ -307,15 +306,19 @@ span img {
   backdrop-filter: blur(3px);
 }
 
+
+
 .interaction {
+
   color: #5c5c5c;
-  font-size: 50px;
-  font-weight: 900;
+	font-size: 50px;
+	font-weight: 900;
   text-align: center;
-  margin: 0 auto;
+	margin: 0 auto;
 
   color: #fff;
   text-align: center;
+
 }
 
 form h3 {
@@ -332,7 +335,8 @@ form h3 {
   display: flex;
   flex-direction: column;
 
-  flex-wrap: wrap;
+	flex-wrap: wrap;
+
 }
 .form-input-name,
 .form-input-email,
@@ -341,7 +345,17 @@ form h3 {
   width: 450px;
   margin: 0 auto;
   padding: 15px 30px;
-  border-radius: 30px;
+  border-radius: 15px;
+  border: none;
+
+}
+.form-input-name,
+.form-input-email,
+.form-input-tel,
+.form-input-msg:active:hover {
+
+  border: none;
+  outline: none;
 }
 .form-input-name,
 .form-input-email,
@@ -349,13 +363,7 @@ form h3 {
 .form-input-msg:not(:last-child) {
   margin-bottom: 15px;
 }
-/* .form-input-email,
-.form-input-tel {
-  
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-  } */
+
 
 .form-input-msg {
   height: 75px;
@@ -371,35 +379,28 @@ form h3 {
 .form-btn {
   align-self: center;
   padding: 15px;
+  margin-bottom: 46px;
   width: 250px;
   border-radius: 15px;
   background: #f8b830;
   color: #fff;
   transition: width 0.7s, background 0.1s;
-  margin-bottom: 47px;
+  border: none;
+  outline: none;
+
 }
 .form-btn:hover {
   width: 300px;
+  border: none;
+  outline: none;
 }
 .form-btn:active {
   vertical-align: middle;
   background: #696969;
+  border: none;
+  outline: none;
 }
-.form-input-name,
-.form-input-email,
-.form-input-tel,
-.form-input-msg {
-  width: 450px;
-  margin: 0 auto;
-  padding: 15px 30px;
-  border-radius: 15px;
-}
-.form-input-name,
-.form-input-email,
-.form-input-tel,
-.form-input-msg:not(:last-child) {
-  margin-bottom: 15px;
-}
+
 
 .first-sc-form {
   border: 1px none #fff;
@@ -408,5 +409,70 @@ form h3 {
   margin: 0 auto;
   background: #333;
   padding-top: 14px;
-  
+}
+.footer {
+  background: transparent url(../img/footer-image.png) no-repeat center / cover;
+  height: 100%;
+}
+.footer-gen-left-info {
+  padding-top: 40px;
+  width: 424px;
+  height: 385px;
+}
+.footer-gen-left-info a {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.number-tel {
+  display: flex;
+
+  padding-top: 17px;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.number-tel span {
+  width: 30px;
+}
+.color-white {
+  color: #fff;
+}
+.telep {
+  line-height: 12px;
+}
+.telep a {
+  padding-left: 30px;
+  color: #fff;
+}
+.telep span {
+  display: block;
+}
+.mail-span {
+  padding-top: 50px;
+}
+.telep, .mail-span {
+  display: flex;
+  align-items: center;
+}
+/* .telep-links {
+  padding-left: 80px;
+
+} */
+.number-tel span img, .mail-span span img {
+  width: 50px;
+  height: 50px;
+}
+.test {
+  padding-left: 46px;
+}
+.mail-span a {
+  padding-left: 25px;
 }
