@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 .container {
-  max-width: 1200px;
+  width: 100vw !important;
   margin: 0 auto;
 }
 
@@ -67,7 +67,6 @@ span img {
 .email {
   text-decoration: none;
   color: #fff;
-  margin-right: 20px;
 }
 
 .left-wing,
@@ -406,7 +405,7 @@ form h3 {
   flex-direction: row;
 }
 .container2 {
-  max-width: 1200px;
+  width: 100vw;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -414,7 +413,7 @@ form h3 {
 }
 .footer-gen-right {
   display: flex;
-
+  width: 100vw !important; 
   flex-wrap: wrap;
 }
 .footer-gen-left-info {
@@ -422,6 +421,7 @@ form h3 {
   height: 385px;
 }
 .footer-gen-left {
+  width: 100vw !important;
   margin-right: 100px;
 }
 .footer-gen-left-info a {
