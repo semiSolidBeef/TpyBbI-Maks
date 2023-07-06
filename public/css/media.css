@@ -112,5 +112,16 @@
     border: none;
     border: solid 1px #f2f2f2;
   }
-
+	.container2 {
+		flex-direction: column;
+	}
+	.test2 {
+		flex-direction: column;
+		width: 376px;
+		
+	}
+	.test2 ul {
+		margin-bottom: 15px;
+		margin-right: 15px;
+	}
 }

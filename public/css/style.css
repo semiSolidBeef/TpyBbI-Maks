@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-
 }
 
 .bg-reset {
@@ -19,7 +18,7 @@
   background: #333;
 }
 .first-sc-form {
-  color: #fff
+  color: #fff;
 }
 .bg-rebalance {
   background: #000;
@@ -168,7 +167,7 @@ span img {
   margin: 0 auto;
 }
 .second-sct-head {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .second-sct-text {
@@ -294,7 +293,7 @@ span img {
   background: rgb(127, 124, 124) url(../img/bg-metal.jpg) no-repeat center
     center/cover;
 
-	/* height: 90px;
+  /* height: 90px;
   background-blend-mode: multiply;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
@@ -306,19 +305,15 @@ span img {
   backdrop-filter: blur(3px);
 }
 
-
-
 .interaction {
-
   color: #5c5c5c;
-	font-size: 50px;
-	font-weight: 900;
+  font-size: 50px;
+  font-weight: 900;
   text-align: center;
-	margin: 0 auto;
+  margin: 0 auto;
 
   color: #fff;
   text-align: center;
-
 }
 
 form h3 {
@@ -335,8 +330,7 @@ form h3 {
   display: flex;
   flex-direction: column;
 
-	flex-wrap: wrap;
-
+  flex-wrap: wrap;
 }
 .form-input-name,
 .form-input-email,
@@ -347,13 +341,11 @@ form h3 {
   padding: 15px 30px;
   border-radius: 15px;
   border: none;
-
 }
 .form-input-name,
 .form-input-email,
 .form-input-tel,
 .form-input-msg:active:hover {
-
   border: none;
   outline: none;
 }
@@ -363,7 +355,6 @@ form h3 {
 .form-input-msg:not(:last-child) {
   margin-bottom: 15px;
 }
-
 
 .form-input-msg {
   height: 75px;
@@ -387,7 +378,6 @@ form h3 {
   transition: width 0.7s, background 0.1s;
   border: none;
   outline: none;
-
 }
 .form-btn:hover {
   width: 300px;
@@ -401,7 +391,6 @@ form h3 {
   outline: none;
 }
 
-
 .first-sc-form {
   border: 1px none #fff;
   border-radius: 9px;
@@ -413,31 +402,123 @@ form h3 {
 .footer {
   background: transparent url(../img/footer-image.png) no-repeat center / cover;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.container2 {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-gen-right {
+  display: flex;
+
+  flex-wrap: wrap;
 }
 .footer-gen-left-info {
-  padding-top: 40px;
   width: 424px;
   height: 385px;
 }
+.footer-gen-left {
+  margin-right: 100px;
+}
 .footer-gen-left-info a {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 22px;
   font-weight: 500;
   line-height: 39px;
   letter-spacing: 0em;
   text-align: left;
-
+}
+.test ul li {
+  line-height: 1.5;
+}
+.footer-gen-left,
+.footer-gen-right {
+  display: flex;
+  padding-top: 40px;
+  width: 590px;
 }
 
+.footer-gen-left-text {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 22px;
+}
+.footer-gen-left-nav {
+  padding-top: 20px;
+  width: 164px;
+}
+.footer-list-elem {
+  color: #fff;
+  line-height: 1.65;
+}
+.footer-gen-left-list {
+  list-style-type: none;
+
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer-gen-right ul {
+  list-style-type: none;
+}
+.footer-gen-right li {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer-gen-right p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #fff;
+}
 .number-tel {
   display: flex;
 
   padding-top: 17px;
 }
-.test {
+.text-reset {
   display: flex;
   flex-direction: column;
   align-items: start;
+  padding-left: 46px;
+}
+.test2 {
+  display: flex;
+  
+  flex-direction: row;
+	
+  width: 559px;
+}
+.test2 ul {
+	
+	margin-right: 15px;
+}
+.test2 ul li{
+  align-items: start;
+  line-height: 30px;
+}
+.test2:not(:last-child) {
+	margin-bottom: 40px;
 }
 .number-tel span {
   width: 30px;
@@ -458,7 +539,8 @@ form h3 {
 .mail-span {
   padding-top: 50px;
 }
-.telep, .mail-span {
+.telep,
+.mail-span {
   display: flex;
   align-items: center;
 }
@@ -466,13 +548,12 @@ form h3 {
   padding-left: 80px;
 
 } */
-.number-tel span img, .mail-span span img {
+.number-tel span img,
+.mail-span span img {
   width: 50px;
   height: 50px;
 }
-.test {
-  padding-left: 46px;
-}
+
 .mail-span a {
   padding-left: 25px;
 }
