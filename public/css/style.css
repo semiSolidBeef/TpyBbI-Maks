@@ -17,7 +17,7 @@
   background: #333;
 }
 .first-sc-form {
-  color: #fff
+  color: #fff;
 }
 .bg-rebalance {
   background: #000;
@@ -53,7 +53,6 @@ span img {
   margin-right: 122px;
   padding-left: 16px;
   width: 180px;
- 
 }
 
 .header-descr {
@@ -167,7 +166,7 @@ span img {
   margin: 0 auto;
 }
 .second-sct-head {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .second-sct-text {
@@ -218,6 +217,9 @@ span img {
 .block {
   margin-bottom: 20px;
   padding: 15px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   border: 1px solid #c0c0c0;
   border-radius: 7px;
 }
@@ -293,7 +295,7 @@ span img {
   background: rgb(127, 124, 124) url(../img/bg-metal.jpg) no-repeat center
     center/cover;
 
-	/* height: 90px;
+  /* height: 90px;
   background-blend-mode: multiply;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
@@ -305,108 +307,15 @@ span img {
   backdrop-filter: blur(3px);
 }
 
-@media screen and (width < 860px) {
-  .phone-reset {
-    display: none;
-  }
-  .logo {
-    margin: 0;
-  }
-  .header-descr {
-    padding-left: 60px;
-  }
-  .first-sc-head {
-    font-size: calc(2rem + 2vw - 1vh);
-    text-align: inherit;
-    padding-left: 20px;
-
-    height: 400px;
-  }
-}
-@media screen and (width < 640px) {
-  .header-descr {
-    display: none;
-  }
-  .first-sc-content {
-    font-size: calc(2rem + 2vw - 1vh);
-    flex-direction: column;
-    text-align: left;
-  }
-  .first-sc-head {
-    height: 300px;
-    text-align: left;
-    padding-top: 50px;
-  }
-
-  .block {
-    text-align: center;
-    margin: 0 auto;
-  }
-  #cardes {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .third-sct-header {
-    text-align: center;
-  }
-  .fifth-sct-header {
-    padding-top: 5px;
-
-    font-size: calc(2rem + 2vw - 1vh);
-    max-height: 180px;
-  }
-  .fifth-sct-text {
-    font-size: calc(2rem + 2vw - 1vh);
-    padding-top: 120px;
-    max-width: 400px;
-    max-height: 180px;
-  }
-  .left-wing {
-    width: 180px;
-    padding-left: 0;
-  }
-  .fifth-sct-flex .fifth-sct-parag {
-    font-size: calc(2rem + 2vw - 1vh);
-  }
-  .fifth-sct-flex {
-    width: 200px;
-  }
-  .fifth-sct-number {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-
-    text-align: center;
-  }
-  .fifth-sct-number {
-    text-align: center;
-  }
-  .fifth-sct-numbers {
-    margin-bottom: 11px;
-  }
-  .fifth-sct {
-    height: 100px;
-    background: #333;
-    background-size: 400px 1000px;
-  }
-  .bg-restart {
-    height: 1030px;
-  }
-
-}
-
-
 .interaction {
-
   color: #5c5c5c;
-	font-size: 50px;
-	font-weight: 900;
+  font-size: 50px;
+  font-weight: 900;
   text-align: center;
-	margin: 0 auto;
+  margin: 0 auto;
 
   color: #fff;
   text-align: center;
-
 }
 
 form h3 {
@@ -423,8 +332,7 @@ form h3 {
   display: flex;
   flex-direction: column;
 
-	flex-wrap: wrap;
-	
+  flex-wrap: wrap;
 }
 .form-input-name,
 .form-input-email,
@@ -450,7 +358,7 @@ form h3 {
   } */
 
 .form-input-msg {
-  height: 100px;
+  height: 75px;
 }
 .flex-elem {
   display: flex;
@@ -463,14 +371,12 @@ form h3 {
 .form-btn {
   align-self: center;
   padding: 15px;
-  margin-bottom: 46px;
-
   width: 250px;
   border-radius: 15px;
   background: #f8b830;
   color: #fff;
   transition: width 0.7s, background 0.1s;
-	
+  margin-bottom: 47px;
 }
 .form-btn:hover {
   width: 300px;
@@ -478,26 +384,23 @@ form h3 {
 .form-btn:active {
   vertical-align: middle;
   background: #696969;
-
 }
-.form-input-name, .form-input-email, .form-input-tel ,.form-input-msg {
+.form-input-name,
+.form-input-email,
+.form-input-tel,
+.form-input-msg {
   width: 450px;
   margin: 0 auto;
   padding: 15px 30px;
-  border-radius: 50px;
+  border-radius: 15px;
 }
-.form-input-name, .form-input-email, .form-input-tel ,.form-input-msg:not(:last-child) {
+.form-input-name,
+.form-input-email,
+.form-input-tel,
+.form-input-msg:not(:last-child) {
   margin-bottom: 15px;
 }
-.form-btn {
-  align-self: self-end;
-  padding: 15px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  width: 250px;
-  border-radius: 15px;
 
-}
 .first-sc-form {
   border: 1px none #fff;
   border-radius: 9px;
@@ -505,8 +408,5 @@ form h3 {
   margin: 0 auto;
   background: #333;
   padding-top: 14px;
+  
 }
-
-
-
-
