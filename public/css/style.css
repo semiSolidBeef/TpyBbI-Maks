@@ -599,3 +599,12 @@ form h3 {
 .logo-footer {
   padding-top: 20px;
 }
+.sotka-footer {
+	padding-top: 50px  !important;
+	display: flex;
+	flex-direction: column;
+}
+.telephonee {
+	width: 138px;
+	color: #fff;
+}
