@@ -7,7 +7,7 @@
 }
 
 .bg-reset {
-  background: rgb(127, 124, 124) url(../img/metal.jpeg) no-repeat center center/cover;
+  background: rgb(127, 124, 124) url(https://downloader.disk.yandex.ru/preview/2fc4209e549a6664dbd4deb2858a57ec801fec17cd8d658244c7335011d73241/64a7f523/WwlaeQOv-_1Gorw82ErMtJslOS3R5cOrYFCAZfGDTQ4vA_6Ae0bcHM6hHdKt9rLH3kKPSa3AjLUz-fjDAwsbgQ%3D%3D?uid=0&filename=metal.jpeg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048) no-repeat center center/cover;
   margin: 0 auto;
   background-blend-mode: multiply;
   -webkit-backdrop-filter: blur(3px);
