@@ -49,10 +49,14 @@ body {
 }
 
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .fdc {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -87,6 +91,8 @@ span img {
 
 .phone-reset,
 .post-reset {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
 }
@@ -97,6 +103,8 @@ span img {
 }
 
 .right-wing {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -105,11 +113,15 @@ span img {
 
 .left-wing {
   padding-left: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
 }
 
 .first-sc-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -124,6 +136,8 @@ span img {
 }
 
 .first-sc-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -137,7 +151,7 @@ span img {
   font-weight: 100;
   text-align: center;
   margin-right: 17px;
-  padding-left: 14px;
+	padding-left: 14px;
 }
 
 .arrow-7 {
@@ -201,6 +215,8 @@ span img {
 }
 
 #parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
@@ -547,7 +563,28 @@ form h3 {
 .clearfix {
   clear: both;
 }
-
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .form-input-name,
+  .form-input-email,
+  .form-input-tel,
+  .form-input-msg,
+  .form-btn,
+  .first-sc-form {
+    -webkit-appearance: none;
+  }
+}
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    .form-input-name,
+    .form-input-email,
+    .form-input-tel,
+    .form-input-msg,
+    .form-btn,
+    .first-sc-form {
+      -webkit-appearance: none;
+    }
+  }
+}
 @media only screen and (min-width: 1280px) {
   .contain {
     width: 1200px;
@@ -603,14 +640,12 @@ form h3 {
 .logo-footer {
   padding-top: 20px;
 }
-
 .sotka-footer {
-  padding-top: 50px !important;
-  display: flex;
-  flex-direction: column;
+	padding-top: 50px  !important;
+	display: flex;
+	flex-direction: column;
 }
-
 .telephonee {
-  width: 138px;
-  color: #fff;
+	width: 138px;
+	color: #fff;
 }
