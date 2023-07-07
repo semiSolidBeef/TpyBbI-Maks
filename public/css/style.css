@@ -5,6 +5,9 @@
   font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
+body {
+	overflow-x: hidden;
+}
 
 .bg-reset {
   background: rgb(127, 124, 124) url(https://sun9-33.userapi.com/impg/Sx9wpWG9r9L_VWlQJ5mLa9o0FkwT7PnCBYJ0og/lnIhtpxrh_Y.jpg?size=1280x853&quality=96&sign=f0ec5747a3321ebc5ece1a53c5aed608&type=album) no-repeat center center/cover;

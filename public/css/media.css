@@ -16,6 +16,9 @@
     height: 400px;
   }
 }
+body {
+	overflow-x: hidden;
+}
 @media screen and (width < 680px) {
 	.header-descr {
     display: none;
@@ -51,13 +54,13 @@
   }
   #cardes {
     display: flex;
-    /* flex-direction: column; */
+    
     flex-wrap: wrap;
     width: 100vw;
   }
 	#parent {
 		display: flex;
-    /* flex-direction: column; */
+    
     flex-wrap: wrap;
     width: 100vw;
 	}
