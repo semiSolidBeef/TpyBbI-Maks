@@ -16,13 +16,18 @@
     height: 400px;
   }
 }
-@media screen and (width < 1000px) {
-
-  
-
-  .header-descr {
+@media screen and (width < 680px) {
+	.header-descr {
     display: none;
   }
+}
+@media screen and (width < 1200px) {
+
+  body {
+		width: 100vw;
+	}
+
+  
   .logo {
     margin-right: 55px;
   }
